@@ -1,0 +1,842 @@
+body{
+    background-color: #8CC461;
+}
+.main-div{
+    width: 100%; 
+    height: 100%; 
+    position: relative; 
+    background: #8CC461;
+}
+.main-score-board{
+    width: 800px; 
+    height: 158px; 
+    left: 240px; 
+    top: 62px; 
+    position: absolute; 
+    background: rgba(28, 48, 120, 0); 
+    border-radius: 13px; 
+    border: 2px white solid
+}
+
+.players{
+    position: absolute; 
+    color: white; 
+    font-size: 35px; 
+    font-family: Roboto; 
+    font-weight: 600; 
+    letter-spacing: 4px; 
+    word-wrap: break-word;
+
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.p1{
+    width: 135px; 
+    height: 37px; 
+    left: 258px; 
+    top: 78px;             
+}
+.p2{
+    width: 150px; 
+    height: 37px; 
+    left: 258px; 
+    top: 120px; 
+}
+.p3{
+    width: 235px; 
+    height: 37px; 
+    left: 259px; 
+    top: 163px;
+}
+.scoreCard{    
+    position: absolute; 
+    color: #656565; 
+    font-size: 17px; 
+    font-family: Roboto; 
+    font-weight: 600; 
+    letter-spacing: 1.70px; 
+    word-wrap: break-word;
+    text-align: center;
+}
+.score-size{
+    font-size: 35px;
+}
+.yourScore{
+    width: 50px; 
+    height: 16px; 
+    left: 926px; 
+    top: 84px; 
+}
+.ys4{
+    width: 139px; 
+    height: 128px; 
+    left: 713px; 
+    top: 77px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 9px;
+
+    margin-top: -60px;
+    margin-left: -75px;
+}
+.compScore{
+    width: 61px; 
+    height: 16px; 
+    left: 920px; 
+    top: 106px;  
+}
+
+.cs4{
+    width: 139px; 
+    height: 128px; 
+    left: 713px; 
+    top: 77px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 9px;
+
+    margin-top: -60px;
+    margin-left: -245px;
+}
+.game-rules-section{
+    width: 303px; 
+    height: 367px; 
+    left: 964px; 
+    top: 288px; 
+    position: absolute;
+}
+.game-rules-section-sub{
+    width: 278px; 
+    height: 325px; 
+    left: 0px; top: 42px; 
+    position: absolute; 
+    background: #004429; 
+    border-radius: 13px; 
+    overflow: hidden; 
+    border: 7px white solid;
+}
+.game-title{
+    width: 156px; 
+    height: 27px; 
+    left: 61px; 
+    top: 25px; 
+    position: absolute; 
+    color: white; 
+    font-size: 29px; 
+    font-family: Roboto; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+.__blank-game-color1{
+    width: 8px; 
+    height: 8px; 
+    left: 27px; 
+    top: 92px; 
+    position: absolute; 
+    background: #FFD600;
+}
+.__blank-game-color2{
+    width: 8px; 
+    height: 8px; 
+    left: 27px; 
+    top: 138px; 
+    position: absolute; 
+    background: #FFD600;
+}
+.rules1{
+    width: 211px; 
+    height: 27px; 
+    left: 46px; 
+    top: 80px; 
+    position: absolute; 
+    color: white; 
+    font-size: 13px; 
+    font-family: Roboto; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.rules2{
+    width: 211px; 
+    height: 27px; 
+    left: 46px; 
+    top: 80px; 
+    position: absolute; 
+    color: white; 
+    font-size: 13px; 
+    font-family: Roboto; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.rules3{
+    width: 216px; 
+    height: 43px; 
+    left: 46px; 
+    top: 125px; 
+    position: absolute; 
+    color: white; 
+    font-size: 13px; 
+    font-family: Roboto; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.rules4{
+    width: 211px; 
+    height: 27px; 
+    left: 46px; 
+    top: 186px; 
+    position: absolute; 
+    color: white; 
+    font-size: 13px; 
+    font-family: Roboto; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.rules5{
+    width: 216px; 
+    height: 48px; 
+    left: 46px; 
+    top: 244px; 
+    position: absolute; 
+    color: white; 
+    font-size: 13px; 
+    font-family: Roboto; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.__blank-game-color3{
+    width: 8px; 
+    height: 8px; 
+    left: 27px; 
+    top: 198px; 
+    position: absolute; 
+    background: #FFD600;
+}
+.__blank-game-color4{
+    width: 8px; 
+    height: 8px; 
+    left: 27px; 
+    top: 257px; 
+    position: absolute; 
+    background: #FFD600;
+}
+.closed-outer{
+    width: 50px;
+    height: 50px;
+    left: 253px;
+    top: 12px;
+    position: absolute;
+    background: #FF0000;
+    border-radius: 9999px;
+    border: 5px white solid;
+    cursor: pointer;
+}
+.closed-inner{
+    width: 24px;
+    height: 53px;
+    left: 266px;
+    top: 17px;
+    position: absolute;
+    color: white;
+    font-size: 44px;
+    font-family: Dangrek;
+    font-weight: 400;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+.button-rules{
+    width: 95px;
+    height: 40px;
+    left: 1171px;
+    top: 688px;
+    font-size: 20px;
+    position: absolute;
+    border-radius: 12px;
+    color: white;
+    background: #8CC461;
+    border: 2px white solid;
+}
+.click-rock{
+    width: 107.91px; 
+    height: 0px; 
+    left: 739.96px; 
+    top: 440px; 
+    position: absolute; 
+    transform: rotate(120deg); 
+    transform-origin: 0 0; 
+    border: 10px rgba(0, 0, 0, 0.64) solid;
+}
+.click-paper{
+    width: 107.91px; 
+    height: 0px;            
+    left: 575px; 
+    top: 440px;
+    position: absolute; 
+    transform: rotate(60.58deg); 
+    transform-origin: 0 0; 
+    border: 10px rgba(0, 0, 0, 0.64) solid;
+}
+.click-scrissors{
+    width: 133px; 
+    height: 0px; 
+    left: 582px; 
+    top: 393px; 
+    position: absolute;             
+    transform-origin: 0 0; 
+    border: 10px rgba(0, 0, 0, 0.64) solid;
+}
+
+.player1{
+    width: 110px; 
+    height: 110px; 
+    left: 595px; 
+    top: 533px; 
+    position: absolute; 
+    cursor: pointer;
+}
+.player1Sub1{
+    width: 110px; 
+    height: 110px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: white; 
+    box-shadow: 3px 0px 21px 1px rgba(0, 0, 0, 0.20) inset; 
+    border-radius: 9999px;
+    cursor: pointer;
+}
+.player1Sub2{
+    width: 110px; 
+    height: 110px; 
+    left: -15px; 
+    top: -15px;
+    position: absolute; 
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.35); 
+    border-radius: 9999px; 
+    border: 16px #FFA943 solid;
+    cursor: pointer;
+}
+.player2{
+    width: 110px; 
+    height: 110px; 
+    left: 477px; 
+    top: 329px; 
+    position: absolute; 
+    cursor: pointer;
+}
+.player2Sub1{
+    width: 110px; 
+    height: 110px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: white; 
+    box-shadow: 3px 0px 21px 1px rgba(0, 0, 0, 0.20) inset; 
+    border-radius: 9999px;
+    cursor: pointer;
+}
+.player2Sub2{
+    width: 110px; 
+    height: 110px; 
+    left: -17px; 
+    top: -15px; 
+    position: absolute; 
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.35); 
+    border-radius: 9999px; 
+    border: 16px #0074B6 solid;
+    cursor: pointer;
+}
+.player3{
+    width: 110px; 
+    height: 110px; 
+    left: 713px; 
+    top: 329px; 
+    position: absolute; 
+    cursor: pointer;
+}
+.player3Sub1{
+    width: 110px; 
+    height: 110px; 
+    left: 0px; top: 0px; 
+    position: absolute; 
+    background: white; 
+    box-shadow: 3px 0px 21px 1px rgba(0, 0, 0, 0.20) inset; 
+    border-radius: 9999px;
+    cursor: pointer;
+}
+.player3Sub2{
+    width: 110px; 
+    height: 110px; 
+    left: -15px; 
+    top: -15px;  
+    position: absolute; 
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.35); 
+    border-radius: 9999px; 
+    border: 16px #BD00FF solid;
+    cursor: pointer;
+}
+.p1-img1-rock{
+    width: 80px; 
+    height: 58.51px; 
+    left: 492px; 
+    top: 351px; 
+    position: absolute;
+}
+.p2-img2-paper{
+    width: 72px; 
+    height: 72px; 
+    left: 614px; 
+    top: 552px; 
+    position: absolute;
+}
+.p3-img3-scissors{
+    width: 73px;
+    height: 65.5px;
+    left: 732.92px;
+    top: 352px;
+    position: absolute;
+}
+
+/* win section */
+.winimg1-paper{
+    width: 75px;
+    height: 65px;
+    left: 334px;
+    top: 400px;
+    position: absolute;
+}
+.winimg2-scissors{
+    width: 66px;
+    height: 80px;
+    left: 943px;
+    top: 391px;
+    position: absolute;
+}
+
+.player1Sub1Child1{
+    width: 110px; 
+    height: 110px; 
+    left: 315px; 
+    top: 376px; 
+    position: absolute; 
+    background: white; 
+    box-shadow: 3px 0px 21px 1px rgba(0, 0, 0, 0.20) inset; 
+    border-radius: 9999px;
+    cursor: pointer;
+}
+.player1Sub2Child2{
+   width: 110px; 
+    height: 110px; 
+    left: 300px; 
+    top: 360px; 
+    position: absolute; 
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.35); 
+    border-radius: 9999px; 
+    border: 16px #BD00FF solid;
+    cursor: pointer;
+
+}
+.player1winrcolor1{
+   width: 140px;
+    height: 140px;
+    left: 271px;
+    top: 330px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.35);
+    border-radius: 9999px;
+    border: 30px #33ad22 solid;
+    cursor: pointer;
+}
+.player1winrcolor2{
+   width: 190px;
+    height: 190px;
+    left: 262px;
+    top: 319px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.35);
+    border-radius: 9999px;
+    border: 16px #3cce34 solid;
+    cursor: pointer;
+}
+.player1winrcolor3{
+    width: 223px;
+    height: 223px;
+    left: 246px;
+    top: 302px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.35);
+    border-radius: 9999px;
+    border: 16px #60b644a1 solid;
+    cursor: pointer;
+}
+.player2Sub1Child1{
+    width: 110px; 
+    height: 110px; 
+    left: 920px;
+    top: 376px;
+    position: absolute; 
+    background: white; 
+    box-shadow: 3px 0px 21px 1px rgba(0, 0, 0, 0.20) inset; 
+    border-radius: 9999px;
+    cursor: pointer;
+}
+.player2Sub2Child2{
+    width: 110px; 
+    height: 110px; 
+    left: 903px;
+    top: 360px;
+    position: absolute; 
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.35); 
+    border-radius: 9999px; 
+    border: 16px #FFA943 solid;
+    cursor: pointer;
+}
+.picked1{
+    left: 340px;
+    top: 283px;
+    position: absolute;
+    font-size: 15px;
+    color: white;
+}
+.picked2{
+    left: 922px;
+    top: 330px;
+    position: absolute;
+    font-size: 15px;
+    color: white;
+}
+.youwin{
+    left: 500px;
+    top: 410px;
+    position: absolute;
+    font-size: 50px;
+    color: white;
+}
+.anst1{
+    left: 516px;
+    top: 465px;
+    position: absolute;
+    font-size: 35px;
+    color: white;
+}
+.playAgain{
+    left: 520px;
+    top: 521px;
+    position: absolute;
+    font-size: 15px;
+    color: gray;
+    border-radius: 10px;
+    border: 2px #ffffff solid;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.button-rules2{
+    width: 95px;
+    height: 40px;
+    left: 1050px;
+    top: 680px;
+    font-size: 20px;
+    position: absolute;
+    border-radius: 12px;
+    color: white;
+    background: #8CC461;
+    border: 2px white solid;
+    cursor: pointer;
+}
+.button-next{
+    width: 95px;
+    height: 40px;
+    left: 1171px;
+    top: 680px;
+    font-size: 20px;
+    position: absolute;
+    border-radius: 12px;
+    color: white;
+    background: #8CC461;
+    border: 2px white solid;
+    cursor: pointer;
+}
+
+
+
+/* lost section */
+.lostimg2-user{
+    width: 72px;
+    height: 72px;
+    left: 333px; 
+    top: 400px; 
+    position: absolute;
+    cursor: pointer;
+}
+.winimg2-pc{ 
+    width: 110px;
+    width: 76px;
+    height: 72px;
+    left: 936px;
+    top: 395px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.player1Sub1ChildLost1{
+    width: 110px; 
+    height: 110px; 
+    left: 315px; 
+    top: 376px; 
+    position: absolute; 
+    background: white; 
+    box-shadow: 3px 0px 21px 1px rgba(0, 0, 0, 0.20) inset; 
+    border-radius: 9999px;
+    cursor: pointer;
+}
+.player1Sub1ChildLost2{
+   width: 110px; 
+    height: 110px; 
+    left: 300px; 
+    top: 360px; 
+    position: absolute; 
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.35); 
+    border-radius: 9999px; 
+    border: 16px #FFA943 solid;
+    cursor: pointer;
+}
+.player2winrcolor1{
+   width: 140px;
+    height: 140px;
+    left: 874px;
+    top: 330px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.35);
+    border-radius: 9999px;
+    border: 30px #33ad22 solid;
+    cursor: pointer;
+}
+.player2winrcolor2{
+   width: 190px;
+    height: 190px;
+    left: 863px;
+    top: 319px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.35);
+    border-radius: 9999px;
+    border: 16px #3cce34 solid;
+    cursor: pointer;
+}
+.player2winrcolor3{
+    width: 220px;
+    height: 223px;
+    left: 847px;
+    top: 302px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.35);
+    border-radius: 9999px;
+    border: 16px #60b644a1 solid;
+    cursor: pointer;
+}
+.player2Sub1ChildLost1{
+    width: 110px; 
+    height: 110px; 
+    left: 920px;
+    top: 376px;
+    position: absolute; 
+    background: white; 
+    box-shadow: 3px 0px 21px 1px rgba(0, 0, 0, 0.20) inset; 
+    border-radius: 9999px;
+    cursor: pointer;
+}
+.player2Sub1ChildLost2{
+    width: 110px; 
+    height: 110px; 
+    left: 903px;
+    top: 360px;
+    position: absolute; 
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.35); 
+    border-radius: 9999px; 
+    border: 16px #BD00FF solid;
+    cursor: pointer;
+}
+.picked3{
+    left: 326px;
+    top: 330px;            
+    position: absolute;
+    font-size: 15px;
+    color: white;
+}
+.picked4{
+    left: 922px;
+    top: 283px;
+    position: absolute;
+    font-size: 15px;
+    color: white;
+}
+.youLost{
+    left: 595px;
+    top: 410px;
+    position: absolute;
+    font-size: 50px;
+    color: white;
+}
+.anst2{
+    left: 615px;
+    top: 465px;
+    position: absolute;
+    font-size: 35px;
+    color: white;
+}
+.playAgain2{
+    left: 620px;
+    top: 521px;
+    position: absolute;
+    font-size: 15px;
+    color: gray;
+    border-radius: 10px;
+    border: 2px #ffffff solid;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+}
+
+      
+/* Tieup section */
+.rock1{
+    width: 72px;
+    height: 72px;
+    left: 333px; 
+    top: 392px; 
+    position: absolute;
+    cursor: pointer;
+}
+.rock2{ 
+    width: 110px;
+    width: 76px;
+    height: 72px;
+    left: 936px;
+    top: 395px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.player1Sub1ChildTieup1{
+    width: 110px; 
+    height: 110px; 
+    left: 315px; 
+    top: 376px; 
+    position: absolute; 
+    background: white; 
+    box-shadow: 3px 0px 21px 1px rgba(0, 0, 0, 0.20) inset; 
+    border-radius: 9999px;
+    cursor: pointer;
+}
+.player1Sub1ChildTieup2{
+   width: 110px; 
+    height: 110px; 
+    left: 300px; 
+    top: 360px; 
+    position: absolute; 
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.35); 
+    border-radius: 9999px; 
+    border: 16px #095fc2  solid;
+    cursor: pointer;
+}
+.player2Sub1ChildTieup1{
+    width: 110px; 
+    height: 110px; 
+    left: 920px;
+    top: 376px;
+    position: absolute; 
+    background: white; 
+    box-shadow: 3px 0px 21px 1px rgba(0, 0, 0, 0.20) inset; 
+    border-radius: 9999px;
+    cursor: pointer;
+}
+.player2Sub1ChildTieup2{
+    width: 110px; 
+    height: 110px; 
+    left: 903px;
+    top: 360px;
+    position: absolute; 
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.35); 
+    border-radius: 9999px; 
+    border: 16px #095fc2  solid;
+    cursor: pointer;
+}
+.picked5{
+    left: 326px;
+    top: 330px;            
+    position: absolute;
+    font-size: 15px;
+    color: white;
+}
+.picked6{
+    left: 935px;
+    top: 330px;
+    position: absolute;
+    font-size: 15px;
+    color: white;
+}
+.msg_tieup{
+    left: 595px;
+    top: 410px;
+    position: absolute;
+    font-size: 50px;
+    color: white;
+}        
+.replay{
+    left: 595px;
+    top: 521px;
+    position: absolute;
+    font-size: 15px;
+    color: gray;
+    border-radius: 10px;
+    border: 2px #ffffff solid;
+    width: 170px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.img-congras{
+    position: absolute;
+    left: 420px;
+    top: 0px;
+}
+.txtceleb{
+    position: absolute;
+    left: 500px;
+    top: 380px;
+    color: white;
+}
+.cng1{
+    font-size: 70px;
+}
+.cng2{
+    font-size: 35px;
+}
+.playAgain3{
+    left: 85px;
+    top: 150px;
+    position: absolute;
+    font-size: 15px;
+    color: gray;
+    border-radius: 10px;
+    border: 2px #ffffff solid;
+    width: 175px;
+    height: 35px;
+    cursor: pointer;
+}
